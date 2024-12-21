@@ -291,9 +291,9 @@ end
 --// Library [Window]
 
 function Library:CreateWindow(Settings: { Title: string, Size: UDim2, Transparency: number, MinimizeKeybind: Enum.KeyCode?, Blurring: boolean, Theme: string })
-	local Window = Clone(Screen:WaitForChild("Ui"));
+	local Window = Clone(Screen:WaitForChild("Main"));
 	local Sidebar = Window:FindFirstChild("Sidebar");
-	local Holder = Window:FindFirstChild("Ui");
+	local Holder = Window:FindFirstChild("Main");
 	local BG = Window:FindFirstChild("BackgroundShadow");
 	local Tab = Sidebar:FindFirstChild("Tab");
 
