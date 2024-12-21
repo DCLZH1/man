@@ -210,7 +210,7 @@ else
 	Blur = require(script.Blur)
 end
 
-Screen.Main.Visible = true
+Screen.Main.Visible = false
 
 xpcall(function()
 	Screen.Parent = game.CoreGui
